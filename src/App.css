@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/*Login page*/
+.text-center{
+  text-align: center;
+}
+.h50{
+  height: 50%;
+}
+.m-tb-25{
+  margin: 10% 0 10%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.w100{
+  width: 100%;
+}
+.content{
+  width: 100%;
+  height: calc(100% - 100px);
+}
+.header{
+  background: steelblue;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+}
+.h50{
+  height: 50px;
+}
+.h100{
+  height: 100%;
+}
+.text-left{
+  text-align: left;
+}
+.pointer{
+  cursor: pointer;
+}
+.logo{
+  color: gold;  
+  font-size: 30px !important;
+}
+.bgy{
+  font-size: 12px;
+  padding: 0 15px;
+  color: #000;
+  background: gold;
+}
+.icon{ 
+  font-size: 20px; 
+}
+.search-icon, .cart-icon{
+  color: #fff;
+}
+.rounded{
+  border-radius: 20px;
+}
+.sale {
+  color: #000;
+  font-weight: bold;
+}
+.price{
+  color: lightgray;
+}
+.actual {
+  color: lightgrey;
+  text-decoration: line-through;
+}
+.offer{
+  color: green;
+}
+/* Padding */
+.padding-t10{
+  padding-top: 10px !important;
+}
+.padding-t15{
+  padding-top: 15px !important;
+}
+.padding-t20{
+  padding-top: 20px !important;
+}
+.pad5{
+  padding: 5px !important;
+}
+
+
+/* slider */
+.slider .noUi-connect{
+  background: steelblue !important;
+}
+.slider .noUi-handle.noUi-handle-upper, .slider .noUi-handle{
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 10px !important;
+}
+.slider.noUi-horizontal, .slider .noUi-connect{
+  height: 5px !important;
+}
+.slider.noUi-target{
+  border: none !important;
+}
+
+
+/* sortby */
+.sortby .tab a{
+  color: gray !important;
+}
+.sortby .tab a.active{
+  color: steelblue !important;
+}
+.sortby .tab a:hover,.sortby .tab a.active{
+  color: steelblue !important;
+}
+.sortby .indicator{
+  background-color: steelblue !important;
+}
+@media only screen and (max-width: 960px){
+  .logo{
+    left: 10% !important;
+  }
+}
